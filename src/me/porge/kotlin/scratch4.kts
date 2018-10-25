@@ -1,3 +1,5 @@
+package me.porge.kotlin
+
 import com.sun.javaws.exceptions.InvalidArgumentException
 import java.util.*
 
