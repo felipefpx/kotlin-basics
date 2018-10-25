@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0beeaa44-f542-4335-bb91-3013eb078810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/porge/kotlin/scratch1.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/porge/kotlin/scratch2.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/porge/kotlin/scratch3.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/porge/kotlin/scratch4.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,13 +32,13 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="kt" value="10" />
-          <entry key="kts" value="15" />
+          <entry key="kts" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="Kotlin" value="5" />
+          <entry key="Kotlin" value="7" />
           <entry key="Scratch" value="20" />
         </counts>
       </usages-collector>
@@ -44,12 +47,14 @@
           <entry key="gitignore" value="11" />
           <entry key="kt" value="21" />
           <entry key="kts" value="10712" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="11" />
           <entry key="Kotlin" value="97" />
+          <entry key="PLAIN_TEXT" value="17" />
           <entry key="Scratch" value="10636" />
         </counts>
       </usages-collector>
@@ -57,11 +62,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/porge/kotlin/scratch4.kts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="30">
+              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/porge/kotlin/scratch1.kts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -133,12 +147,14 @@
             </path>
             <path>
               <item name="KotlinBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="KotlinBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KotlinBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="KotlinBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,7 +164,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540487211825" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540487652846" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="kotlin" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -168,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin script.scratch3.kts">
+  <component name="RunManager">
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
@@ -192,12 +208,12 @@
     </configuration>
     <configuration name="scratch1.kts" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script" temporary="true" nameIsGenerated="true">
       <module name="KotlinBasics" />
-      <option name="filePath" value="$APPLICATION_CONFIG_DIR$/scratches/scratch1.kts" />
+      <option name="filePath" value="$PROJECT_DIR$/src/com/porge/kotlin/scratch1.kts" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
       <option name="programParameters" />
       <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/com/porge/kotlin" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -206,46 +222,12 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
-      <option name="filePath" value="$APPLICATION_CONFIG_DIR$/scratches/scratch1.kts" />
+      <option name="filePath" value="$PROJECT_DIR$/src/com/porge/kotlin/scratch1.kts" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
       <option name="programParameters" />
       <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="scratch3.kts" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script" temporary="true" nameIsGenerated="true">
-      <module name="KotlinBasics" />
-      <option name="filePath" value="$APPLICATION_CONFIG_DIR$/scratches/scratch3.kts" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" value="$APPLICATION_CONFIG_DIR$/scratches/scratch3.kts" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/com/porge/kotlin" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -266,13 +248,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Kotlin script.scratch1.kts" />
-      <item itemvalue="Kotlin script.scratch3.kts" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin script.scratch3.kts" />
         <item itemvalue="Kotlin script.scratch1.kts" />
       </list>
     </recent_temporary>
@@ -285,12 +262,20 @@
       <option name="presentableId" value="Default" />
       <updated>1540150784045</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update workspace">
+      <created>1540487353358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540487353358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21618743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21618743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -303,8 +288,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5119171" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" visible="true" weight="0.5119171" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005325" side_tool="true" visible="true" weight="0.5119171" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32953367" />
       <window_info anchor="bottom" id="Scratch Output" order="11" weight="0.16476683" />
@@ -320,6 +305,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/me/porge/kotlin/Example1.kts" />
@@ -339,14 +328,7 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.kts" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch1.kts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1044">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch2.kts">
+    <entry file="file://$PROJECT_DIR$/src/com/porge/kotlin/scratch2.kts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="150" column="14" selection-start-line="150" selection-start-column="14" selection-end-line="150" selection-end-column="14" />
@@ -360,7 +342,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch3.kts">
+    <entry file="file://$PROJECT_DIR$/src/com/porge/kotlin/scratch3.kts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
           <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
@@ -381,6 +363,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/porge/kotlin/scratch4.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/porge/kotlin/scratch1.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
